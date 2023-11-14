@@ -43,6 +43,7 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -193,3 +194,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 debug.log
+**310.pyc
+mysite/polls/__pycache__/models.cpython-310.pyc
+mysite/polls/__pycache__/views.cpython-310.pyc

@@ -9,6 +9,7 @@ from django.contrib import admin
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField("date published")
+    new_question_text = models.CharField(max_length=200, default="")
     @admin.display(
         boolean=True,
         ordering="pub_date",
